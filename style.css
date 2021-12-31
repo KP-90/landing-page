@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+img {
+    max-height: auto;
+    max-width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 1% 10% 1% 10%;
+    margin-bottom: -25px;
+}
+
+header img {
+    border: solid #1F2937 2px;
+    border-radius: 100%;
+    flex: 1;
+    margin: 25px;
+    margin-right: 70%;
+}
+
+header a {
+    flex: 1 1 0%;
+    display: flex;
+}
+
+.top {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
