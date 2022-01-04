@@ -4,7 +4,15 @@ body {
 
 img {
     max-height: auto;
-    max-width: 150px;
+    max-width: 250px;
+}
+
+button {
+    text-decoration: none;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #3882F6;
+    border-radius: 100px;
 }
 
 a {
@@ -21,7 +29,6 @@ header {
 }
 
 header img {
-    border: solid #1F2937 2px;
     border-radius: 100%;
     flex: 1;
     margin: 25px;
@@ -34,6 +41,55 @@ header a {
 }
 
 .top {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    padding: 10px 50px;
+    max-width: 25%;
+    flex: 1;
+}
+
+.main {
+    text-align: center;
+    padding: 10%;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container img {
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.main2 {
+    margin: 10% 20%;
+    background-color: blue;
+    color: white;
+    padding: 1em;
+}
+
+.footer {
+    margin: 0;
+    text-align: center;
     background-color: #1F2937;
     color: #F9FAF8;
 }
